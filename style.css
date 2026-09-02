@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+nav{
+    top: 0;
+    z-index: 10000;
+    position:sticky;
+    background:linear-gradient( rgb(101, 101, 247),rgb(236, 75, 102) );
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px blueviolet;
+}
+
+nav a:hover{
+    background-color: blueviolet;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+#feedback{
+    background-color: rgb(175, 9, 175);;
+    color: white;
+    height: 50px;
+    max-width: 130px;
+    text-align: center;
+    padding:0px;
+    position: fixed;
+    top: 150px;
+    right: 50px;
+    border-radius: 10px;
+    border:2px solid black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feedback:hover{
+    opacity: 0.5;
+    background-color:rgb(204, 21, 122);
+    transform: scale(1.11);
+}
+
+.hero:images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+header{
+    background:linear-gradient(rgba(192, 17, 245, 0.76),rgb(121, 6, 230));
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px blueviolet;
+}
+
+.Courses{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.course{
+    min-height: 400px;
+    max-width: 300px;
+    width: auto;
+    background:linear-gradient(purple,rgb(250, 93, 119),blueviolet);
+    color: white;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 20px;
+    border: 5px solid black;
+    box-shadow: 2px 2px 5px rgb(22, 22, 128);
+    font-size: 20px;
+}
+.course1{
+    min-height: 300px;
+    max-width: 500px;
+    width: auto;
+    background:linear-gradient(purple,rgb(250, 93, 119),blueviolet);
+    color: white;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 20px;
+    border: 5px solid black;
+    box-shadow: 2px 2px 5px rgb(22, 22, 128);
+    font-size: 20px;
+    margin: 20px;
+    
+}
+
+.course,.course1:hover{
+    background-color: rgb(81, 81, 250);
+    transform: scale(1.12);
+}
+
+.course img{
+    height: 180px;
+    object-fit: cover;
+}
+
+button{
+    background-color: rgb(175, 9, 175);
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(72, 72, 224);
+    height:45px ;
+    width: 120px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blueviolet;
+    transform: scale(1.05);
+}
+
+
+
+a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+img{
+    width: 100%;   
+    max-width:620px;
+    height: 400px;
+    margin: 2px;
+    border: 5px solid rgb(22, 22, 128);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px blueviolet;
+    cursor: pointer;
+    
+}
+
+img:hover{
+    transform: scale(1.03);
+    opacity: 0.8;
+}
+
+ header h1{
+    color: white;
+    font-size: 40px;
+}
+
+.course h1{
+    font-size: 30px;
+}
+
+section h1{
+    color: black;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+}
+
+h3{
+    color:purple;
+    font-size: 30px;
+}
+
+section{
+    background:linear-gradient(rgb(169, 91, 243),rgb(253, 107, 131),rgb(169, 91, 243));
+    box-shadow: 4px 4px 7px blueviolet;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 200px;  
+}
+
+footer{
+    background:linear-gradient(rgba(192, 17, 245, 0.76),rgb(121, 6, 230));
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px blueviolet;
+}
+
+footer a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
